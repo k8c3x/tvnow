@@ -27,10 +27,10 @@ async function clearCollection(name) {
 async function updateNews() {
   console.log("Fetching sports news...");
 
-  const feeds = [
-    "https://www.goal.com/en/feeds/news",
-    "https://www.goal.com/ar/feeds/news"
-  ];
+const feeds = [
+  "https://www.espn.com/espn/rss/soccer/news",
+  "https://www.ysscores.com/ar/rss"
+];
 
   await clearCollection("sports_news");
 
